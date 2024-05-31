@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="img/trainen.png">
+    <title>Eindopdracht Inleiding Programmeren</title>
+</head>
+<body>
+    <header>
+        <h1 class="titel">A Pawesome Game</h1>
+    </header>
+
+<!--Een menu om een naam voor de hond in te voeren die vervolgens in de browser en console log terugkomt.-->
+            <div class="naamveld" id="naamveld">
+                <label for="nameInput">Geef je hond een naam!</label>
+                <input type="text" name="nameInput" id="nameInput">
+                <button id="button">Invoeren</button>
+            </div>
+                <h3 class="naam"></h3>
+
+            <article>
+                <img src="img/hond_standaard.png" id="hond" alt="De hond waar je interacties mee kunt hebben">
+
+<!--De healthbars die de behoeftes en emoties van de hond weergeven.-->
+                <ul id="statistieken">
+                    <li id="honger-percentage"> </li>
+                    <li id="plezier-percentage"> </li>
+                    <li id="hygiene-percentage"> </li>
+                </ul>
+            </article>
+
+<!--Een klein keuzemenu om de achtergrond te veranderen, zodat er toch een customize-optie in het spel zit.-->
+            <h2>Kies een locatie!</h2>
+                <ul class="keuzemenu">
+                    <li class="optie"> <img src="img/park_achtergrond.jpg" id="park" alt="De optie park als achtergrond"> <p>Park</p> </li>
+                    <li class="optie"> <img src="img/tuin_achtergrond.jpg" id="tuin" alt="De optie tuin als achtergrond"> <p>Tuin</p> </li>
+                    <li class="optie"> <img src="img/woonkamer_achtergrond.jpg" id="woonkamer" alt="De optie woonkamer als achtergrond"> <p>Woonkamer</p> </li>
+                </ul>
+
+<!--Het keuzemenu om de acties te kiezen die je met de hond kunt doen.-->
+            <h2>Wat wil je doen?</h2>
+                <ul class="keuzemenu">
+                    <li class="optie"> <img src="img/aaien.png" id="aaien" alt="De optie om je hond te aaien"> <p>Aaien</p> </li>
+                    <li class="optie"> <img src="img/badderen.png" id="badderen" alt="De optie om je hond in bad te doen"> <p>In bad doen</p> </li>
+                    <li class="optie"> <img src="img/trainen.png" id="trainen" alt="De optie om je hond te trainen"> <p>Trainen</p> </li>
+                    <li class="optie"> <img src="img/uitlaten.png" id="uitlaten" alt="De optie om je hond uit te laten"> <p>Uitlaten</p> </li>
+                    <li class="optie"> <img src="img/voeren.png" id="voeren" alt="De optie om je hond te voeren"> <p>Voeren</p> </li>
+                </ul>
+
+<!--Deze section staat in beeld als er geen actie wordt uitgevoerd.-->
+        <section>
+            <img src="img/hond_blankstate.png" id="hond_blankstate" alt="De afbeelding die verschijnt als er geen interactie wordt uitgevoerd">
+
+        </section>
+
+<!--Deze section, afbeelding en audio verschijnen als er voor de optie "aaien" is gekozen.-->
+        <section>
+            <img src="img/hond_aaien.jpg" id="hond_aaien" alt="De afbeelding die verschijnt als er voor de interactie aaien is gekozen">
+        </section>
+
+<!--Deze section, afbeelding en audio verschijnen als er voor de optie "in bad doen" is gekozen.-->
+        <section>
+            <img src="img/hond_badderen.jpg" id="hond_badderen" alt="De afbeelding die verschijnt als er voor de interactie in bad doen is gekozen">
+        </section>
+
+<!--Deze section, afbeelding en audio verschijnen als er voor de optie "trainen" is gekozen.-->
+        <section>
+            <img src="img/hond_trainen.jpg" id="hond_trainen" alt="De afbeelding die verschijnt als er voor de interactie trainen is gekozen">
+        </section>
+
+<!--Deze section, afbeelding en audio verschijnen als er voor de optie "uitlaten" is gekozen.-->
+        <section>
+            <img src="img/hond_uitlaten.jpg" id="hond_uitlaten" alt="De afbeelding die verschijnt als er voor de interactie uitlaten is gekozen">
+        </section>
+
+<!--Deze section, afbeelding en audio verschijnen als er voor de optie "voeren" is gekozen.-->
+        <section>
+            <img src="img/hond_voeren.jpg" id="hond_voeren" alt="De afbeelding die verschijnt als er voor de interactie voeren is gekozen">
+        </section>
+
+<!--Dit is de link naar het Javascript-bestand wat bij dit spel hoort.-->
+        <script src="scripts/javascript.js"></script>
+
+    <footer>
+        <p>© Yasmine Hennik 2024 - Inleiding Programmeren</p>
+    </footer>    
+</body>
+</html>

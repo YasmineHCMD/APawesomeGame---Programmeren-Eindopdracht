@@ -1,0 +1,220 @@
+html {
+    background-color: lightslategray;
+}
+
+body {
+    background-image: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-image:url(/img/banner.png);
+    background-position:center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.titel {
+    color: olivedrab;
+}
+
+label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.naamveld {
+    display: flex;
+    justify-content: center;
+}
+
+.naam {
+    display:flex;
+    justify-content: center;
+}
+
+.keuzemenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.optie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+
+#hond {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#statistieken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#honger-percentage {
+    color: indianred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+
+#plezier-percentage {
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+
+#hygiene-percentage {
+    color:lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#park:hover {
+    opacity: 0.7;
+}
+
+#tuin:hover {
+    opacity: 0.7;
+}
+
+#woonkamer:hover {
+    opacity: 0.7;
+}
+
+#aaien:hover {
+    opacity: 0.7;
+}
+
+#badderen:hover {
+    opacity: 0.7;
+}
+
+#trainen:hover {
+    opacity: 0.7;
+}
+
+#uitlaten:hover {
+    opacity: 0.7;
+}
+
+#voeren:hover {
+    opacity: 0.7;
+}
+
+
+#hond_blankstate {
+    display: flex;
+    width: 300px;
+}
+
+#hond_aaien {
+    display: none;
+    width: 300px;
+}
+
+#hond_badderen {
+    display: none;
+    width: 300px;
+}
+
+#hond_trainen {
+    display: none;
+    width: 300px;
+}
+
+#hond_uitlaten {
+    display: none;
+    width: 300px;
+}
+
+#hond_voeren {
+    display: none;
+    width: 300px;
+}
+
+h1 {
+    color:white;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#keuzemenu {
+    display: flex;
+}
+
+.keuzePark {
+    background-image: url(/img/park_achtergrond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.keuzeTuin {
+    background-image: url(/img/tuin_achtergrond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.keuzeWoonkamer {
+    background-image: url(/img/woonkamer_achtergrond.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0.5em;
+    margin-top: 2em;
+}
